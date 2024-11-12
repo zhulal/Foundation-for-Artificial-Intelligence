@@ -209,4 +209,3 @@ plt.show()
 
 ### Conclusion
 This analysis demonstrates how various demographic and organizational factors affect employee salaries, termination rates, and performance. The insights from these visualizations and calculations can inform HR decision-making and help optimize employee management strategies.
-```
