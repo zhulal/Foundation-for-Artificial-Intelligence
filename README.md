@@ -1,6 +1,4 @@
 # Foundation-for-Artificial-Intelligence
-
-```markdown
 # Portfolio Assignment - Data Science and Analysis
 
 ## No 2: Paper Money and Coins Calculation
