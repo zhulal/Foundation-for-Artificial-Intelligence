@@ -17,20 +17,20 @@ The Python program accepts an integer input (customer's savings) between 0 and 1
 ### Code Implementation
 ```python
 def cash_out(num):
-    # Daftar denominasi dalam urutan menurun
+    # List of denominations in descending order
     denominations = [100000, 50000, 20000, 10000, 5000, 2000, 1000, 500, 200, 100]
     denomination_count = {denom: 0 for denom in denominations}
     total_paper_money = 0
     total_coins = 0
 
-    # Iterasi setiap denominasi dan hitung jumlah uang kertas/koin
+    # Iterate through each denomination and calculate the number of bills/coins
     for denom in denominations:
         if num >= denom:
             count = num // denom
             denomination_count[denom] = count
             num %= denom
 
-    # Hitung total uang kertas dan koin
+    # Calculate the total amount of bills and coins
     for denom in denominations:
         if denom >= 1000:
             total_paper_money += denomination_count[denom]
